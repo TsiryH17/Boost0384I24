@@ -68,8 +68,9 @@ namespace WindowsFormsApplication2
             catch(Exception ex) {
                 Console.WriteLine(ex.Message);
             }
-            ChargerDonnees();
+            
             con.Close();
+            ChargerDonnees();
         }
 
         private void Form1_Load(object sender, EventArgs e)
